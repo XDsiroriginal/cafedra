@@ -1,0 +1,19 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.header {
+	width: 100vw;
+	height: 15vh;
+	position: sticky;
+	display: flex;
+	align-items: center
+}
+
+.header_accout-box_button {
+	width: 12vh;
+	height: 12vh;
+	border-radius: 100%;
+	margin-left: 5vw;
+}
