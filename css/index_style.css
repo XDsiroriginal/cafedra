@@ -12,8 +12,11 @@
 }
 
 .header_accout-box_button {
-	width: 12vh;
-	height: 12vh;
+	width: 10vh;
+	height: 10vh;
 	border-radius: 100%;
 	margin-left: 5vw;
+	background-image: url("../img/icon.png");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
