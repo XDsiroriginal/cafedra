@@ -9,10 +9,7 @@
 	position: sticky;
 	display: flex;
 	align-items: center;
-<<<<<<< HEAD
-=======
 	justify-content: space-between;
->>>>>>> 154ed19ba7be87cce23f87582bc805112cae13a1
 }
 
 .header_accout-box_button {
