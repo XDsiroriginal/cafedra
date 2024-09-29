@@ -120,4 +120,8 @@
 .body_right-panel_icon-box_input {
 	width: 10vh;
 	height: 10vh;
+	background-size: 90%;
+	background-repeat: no-repeat;
+	background-position: center;
+	border: none;
 }
