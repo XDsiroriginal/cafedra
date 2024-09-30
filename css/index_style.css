@@ -125,10 +125,23 @@
 	height: 10vh;
 }
 
-.body_market-box_advertisement {
-	font-size: 3rem;
+.body_right-panel_icon-box_input {
 	background-size: 90%;
 	background-repeat: no-repeat;
 	background-position: center;
 	border: none;
+}
+
+.body_market-box_market-box_line-box_product_image {
+	width: 100%;
+	height: 80%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	border: none;
+}
+
+.body_market-box_market-box_line-box_product_text-box {
+	width: 100%;
+	height: 20%;
 }
