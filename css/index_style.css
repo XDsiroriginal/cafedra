@@ -107,6 +107,9 @@
 	height: 30vh;
 	border: 3px solid black;
 	border-radius: 10px;
+	display: flex;
+	align-items: center;
+    justify-content: center;
 }
 
 .body_right-panel_icon-box {
@@ -120,4 +123,8 @@
 .body_right-panel_icon-box_input {
 	width: 10vh;
 	height: 10vh;
+}
+
+.body_market-box_advertisement {
+	font-size: 3rem;
 }
