@@ -127,4 +127,8 @@
 
 .body_market-box_advertisement {
 	font-size: 3rem;
+	background-size: 90%;
+	background-repeat: no-repeat;
+	background-position: center;
+	border: none;
 }
