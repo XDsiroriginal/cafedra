@@ -3,176 +3,49 @@
 	padding: 0px;
 }
 
-@font-face {
-	font-family: "nameng";
-	src: url("../font/YouTube_Sans.ttf");
-}
-
 .header {
 	width: 100vw;
-	height: 15vh;
-	position: sticky;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-}
-
-.header_accout-box_button {
-	width: 10vh;
 	height: 10vh;
-	border-radius: 100%;
-	margin-left: 5vw;
-	background-image: url("../img/icon.png");
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-
-.header_accout-box_searth {
-	width: 70vw;
-	height: 3vw;
-	border: 2px solid black;
-	border-radius: 10px;
-}
-
-.header_accout-box_searth::placeholder {
-	font-size: 1rem;
-}
-.header_searth-box {
-	display: flex;
-}
-
-.header_name-box {
-	margin-right: 5vw;
-}
-
-.header_name-box_text {
-	font-size: 2rem;
-	font-family: "nameng";
+	background: linear-gradient(70deg, #2c3e50, #3498db);
 }
 
 .body {
-	display: flex;
-	justify-content: flex-end;
+	width: 100vw;
+	height: 90vh;
+	background-color: #CFCFCF;
 }
 
-.body_market-box {
-	width: 80vw;
-	border-top: 3px solid black;
-}
-
-.body_right-panel {
-	margin-left: 1.5vw;
-	margin-right: 1.5vw;
-	width: 12vw;
-	border: 3px solid black;
-	border-radius: 10px 10px 0px 0px;
-	border-bottom: none;
-}
-
-.body_market-box_top-center-text-box {
+.header_osnw {
 	width: 100%;
-	height: 5vh;
-	margin: 10px;
-	display: flex;
-	justify-content: center;
-}
-
-.body_market-box_top-center-text-box_text {
-	font-size: 2rem;
-}
-
-.body_market-box_market-box {
-	width: 100%;
-	display: flex;
-	flex-direction: column;
-}
-
-.body_market-box_market-box_line-box {
-	width: 100%;
-	display: flex;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	justify-content: space-between;
-}
-
-.body_market-box_market-box_line-box_product {
-	width: 30%;
-	height: 30vh;
-	border: 3px solid black;
-	border-radius: 10px;
-}
-
-.body_market-box_advertisement {
-	width: 99.5%;
-	height: 30vh;
-	border: 3px solid black;
-	border-radius: 10px;
-	display: flex;
-	align-items: center;
-    justify-content: center;
-}
-
-.body_right-panel_icon-box {
-	width: 100%;
-	height: 15vh;
-	display: flex;
-	justify-content: center;
-    align-items: center;
-}
-
-.body_right-panel_icon-box_input {
-	width: 10vh;
+	max-width: 1280px;
 	height: 10vh;
-}
-
-.body_right-panel_icon-box_input {
-	background-size: 90%;
-	background-repeat: no-repeat;
-	background-position: center;
-	border: none;
-}
-
-.body_market-box_market-box_line-box_product_image {
-	width: 100%;
-	height: 80%;
-	background-size: 90%;
-	background-repeat: no-repeat;
-	background-position: center;
-	border: none;
-}
-
-.body_market-box_market-box_line-box_product_text-box {
-	width: 100%;
-	height: 20%;
 	display: flex;
 	align-items: center;
-    justify-content: space-between;
+	justify-content: space-around;
 }
 
-.body_market-box_market-box_line-box_product_text-box_name-text {
-	font-family: "nameng";
-	margin-left: 10px;
+.body_osnw {
+	width: 100%;
+	max-width: 1280px;
+	height: 90vh;
 }
 
-.body_market-box_market-box_line-box_product_text-box_prise-text {
-	font-family: "nameng";
-	font-size: 1.5rem;
+.header_osnw_left {
+	display: flex;
+	height: 100%;
+	align-items: center;
 }
 
-.body_market-box_market-box_line-box_product_text-box_input {
-	position: relative;
-	height: 90%;
+.header_osnw_left_name-text {
+	color: white;
+	font-size: 3rem;
+	margin: 0px 10px 0px 10px;
+}
+
+.header_osnw_left_burger-div {
+	height: 80%;
 	aspect-ratio: 1 / 1;
-	margin-left: 10px;
-	margin-right: 5px;
-	border-radius: 5px;
-	border: none;
-	background-color: green;
-	background-image: url("../img/korzine.png");
-	background-size: 90%;
-	background-repeat: no-repeat;
-	background-position: center;
-	z-index: 0;
+	border: 1px solid #CFCFCF;
+	border-radius: 10px;
+	margin: 0px 10px 0px 10px;
 }
-
-//test
