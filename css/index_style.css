@@ -51,6 +51,7 @@
 
 .header_osnw_left_name-text {
 	color: white;
+	text-align: center;
 	font-size: 3rem;
 	margin: 0px 10px 0px 10px;
 }
@@ -82,6 +83,12 @@
 	border-radius: 30px;
 	display: flex;
 	padding-left: 20px;
+	transition: 0.5s;
+}
+
+.header_osnw_center_input:hover {
+	width: 50vw;
+	transition: 1s;
 }
 
 .header_osnw_center_input::placeholder {
@@ -91,14 +98,28 @@
 .header_osnw_right_button-div {
 	height: 80%;
 	aspect-ratio: 1 / 1;
+	display: flex;
+	align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
-.header_osnw_right_button-div_icon {
-	height: 80%;
-	aspect-ratio: 1 / 1;
-}
-
-.header_osnw_right_button-div_text {
+.header_osnw_right_button-div_text-div {
 	width: 100%;
 	height: 20%;
+}
+
+.header_osnw_right_button-div_button {
+	height: 80%;
+	aspect-ratio: 1 / 1;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 200%;
+	border: none;
+}
+
+.header_osnw_right_button-div_text-div_text {
+	text-align: center;
+	color: white;
 }
