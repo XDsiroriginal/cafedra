@@ -3,10 +3,6 @@
 	padding: 0px;
 }
 
-body {
-	display: flex;
-}
-
 .header {
 	width: 100vw;
 	height: 10vh;
@@ -32,6 +28,7 @@ body {
 	width: 100%;
 	max-width: 1280px;
 	height: 90vh;
+	display: flex;
 }
 
 .header_osnw_left {
@@ -51,6 +48,7 @@ body {
 	display: flex;
 	height: 100%;
 	align-items: center;
+	flex-direction: column;
 }
 
 .header_osnw_left_name-text {
@@ -100,7 +98,7 @@ body {
 }
 
 .header_osnw_right_button-div {
-	height: 80%;
+	width: 80%;
 	aspect-ratio: 1 / 1;
 	display: flex;
 	align-items: center;
@@ -126,4 +124,14 @@ body {
 .header_osnw_right_button-div_text-div_text {
 	text-align: center;
 	color: white;
+}
+
+.body_osnw_left-panel {
+	width: 15%;
+	height: 100%;
+}
+
+.body_osnw_central-panel {
+	width: 90%;
+	height: 100%;
 }
