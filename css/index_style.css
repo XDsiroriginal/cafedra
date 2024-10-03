@@ -47,7 +47,6 @@
 .header_osnw_right {
 	display: flex;
 	height: 100%;
-	align-items: center;
 	flex-direction: column;
 }
 
@@ -98,12 +97,14 @@
 }
 
 .header_osnw_right_button-div {
-	width: 80%;
+	width: 60%;
 	aspect-ratio: 1 / 1;
 	display: flex;
 	align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-left: 10px;
+    margin-bottom: 10px;
 }
 
 .header_osnw_right_button-div_text-div {
@@ -127,7 +128,7 @@
 }
 
 .body_osnw_left-panel {
-	width: 15%;
+	width: 10%;
 	height: 100%;
 }
 
