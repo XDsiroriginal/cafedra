@@ -52,14 +52,13 @@
 .header_osnw_left_name-text {
 	color: white;
 	text-align: center;
-	font-size: 3rem;
+	font-size: 3.5rem;
 	margin: 0px 10px 0px 10px;
 }
 
 .header_osnw_left_burger-div {
 	height: 80%;
 	aspect-ratio: 1 / 1;
-	border: 1px solid #CFCFCF;
 	border-radius: 20px;
 	margin: 0px 10px 0px 10px;
 }
@@ -73,7 +72,7 @@
 	background-image: url("../img/burger_white.svg");
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: 70%;
+	background-size: 80%;
 }
 
 .header_osnw_center_input {
@@ -88,6 +87,7 @@
 
 .header_osnw_center_input:hover {
 	width: 50vw;
+	border: 2px solid lightblue;
 	transition: 1s;
 }
 
@@ -115,7 +115,7 @@
 	background-color: transparent;
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: 200%;
+	background-size: 150%;
 	border: none;
 }
 
