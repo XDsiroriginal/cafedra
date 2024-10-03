@@ -8,13 +8,13 @@ body {
 }
 
 .header {
-	width: 100%;
+	width: 100vw;
 	height: 10vh;
 	background: linear-gradient(70deg, #2c3e50, #3498db);
 }
 
 .body {
-	width: 100%;
+	width: 100vw;
 	height: 90vh;
 	background-color: #CFCFCF;
 }
@@ -126,14 +126,4 @@ body {
 .header_osnw_right_button-div_text-div_text {
 	text-align: center;
 	color: white;
-}
-
-.right {
-	width: 92vw;
-}
-
-.left {
-	width: 8vw;
-	height: 100vh;
-	background: linear-gradient(190deg, #2c3e50, #3498db);
 }
