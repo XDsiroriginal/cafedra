@@ -23,9 +23,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="px"
-     inkscape:zoom="2.0703125"
-     inkscape:cx="222.6717"
-     inkscape:cy="275.07925"
+     inkscape:zoom="0.731966"
+     inkscape:cx="76.506285"
+     inkscape:cy="467.91791"
      inkscape:window-width="1280"
      inkscape:window-height="961"
      inkscape:window-x="-8"
@@ -38,12 +38,12 @@
      inkscape:label="Слой 2"
      style="opacity:1"><g
        id="g2"><circle
-         style="fill:#ffffff;stroke-width:1.20979;stroke-linejoin:bevel"
+         style="fill:#3498db;stroke-width:1.20979;stroke-linejoin:bevel;fill-opacity:1"
          id="path1"
          cx="252.37735"
          cy="173.49376"
          r="41.781132" /><path
-         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-linejoin:bevel;stroke-opacity:1"
+         style="fill:#3498db;fill-opacity:1;stroke:none;stroke-linejoin:bevel;stroke-opacity:1"
          d="m 163.08612,335.36832 c -23.35915,0 -16.4899,-28.56135 -16.4899,-28.56135 0,-38.88302 54.33963,-60.33963 54.33963,-60.33963 h 91.77358 c 0,0 59.89434,25.80378 59.89434,65.89434 0,0 0.96603,22.46038 -22.46038,22.46038"
          id="path2"
          sodipodi:nodetypes="cccccc" /></g></g></svg>
