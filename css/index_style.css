@@ -72,12 +72,12 @@ body::-webkit-scrollbar {
 .header_osnw_left_name-text_dop {
 	height: 50%;
 	display: flex;
-	align-items: flex-end;
+	align-items: center;
 }
 
 .header_osnw_left_name-text {
 	color: white;
-	font-size: 2rem;
+	font-size: 45px;
 	margin: 0px 10px 0px 10px;
 }
 
@@ -101,8 +101,8 @@ body::-webkit-scrollbar {
 }
 
 .header_osnw_center_input {
-	height: 50%;
-	width: 20vw;
+	height: 55%;
+	width: 25vw;
 	border: none;
 	border-radius: 30px;
 	display: flex;
@@ -111,7 +111,7 @@ body::-webkit-scrollbar {
 }
 
 .header_osnw_center_input:hover {
-	width: 30vw;
+	width: 35vw;
 	border: 2px solid lightblue;
 	transition: 1s;
 }
@@ -181,7 +181,7 @@ body::-webkit-scrollbar {
 
 .body_osnw_central-panel_3-div_card_image {
 	width: 100%;
-	height: 70%;
+	height: 80%;
 	background-color: transparent;
 	background-repeat: no-repeat;
 	background-position: center;
