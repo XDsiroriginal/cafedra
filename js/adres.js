@@ -1,3 +1,3 @@
 function adress_reg() {
-	document.location="reg.html";
+	document.getElementById('log_div').style.
 }	
