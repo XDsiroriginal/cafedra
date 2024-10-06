@@ -4,11 +4,11 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="css/index_style.css">
-	<script src="js/adres.js"></script>
+	<script src="js/register_and_log.js"></script>
 	<title>Каталог товаров</title>
 </head>
 <body>
-	<div class="header">
+	<div class="header" id="header_shop">
 		<div class="header_osnw">
 			<div class="header_osnw_left">
 				<div class="header_osnw_left_burger-div">
@@ -26,7 +26,7 @@
 	<div class="pre_header">
 
 	</div>
-	<div class="body">
+	<div class="body" id="body_shop">
 		<div class="body_osnw">
 			<div class="body_osnw_left-panel">
 				<div class="header_osnw_right">
@@ -39,7 +39,7 @@
 					<div class="header_osnw_right_button-div">
 						<input type="button" class="header_osnw_right_button-div_button" onclick="adress_reg()" style="background-image: url('img/login.svg')">
 						<div class="header_osnw_right_button-div_text-div">
-							<p class="header_osnw_right_button-div_text-div_text">Войти</p>
+							<p class="header_osnw_right_button-div_text-div_text" id="user_name">Войти</p>
 						</div>
 					</div>
 					<div class="header_osnw_right_button-div">
@@ -150,5 +150,13 @@
 			</div>
 		</div>
 	</div>
+		<div class="body_log" id='log_div'>
+			<div class="osnw_div_log">
+				<p class="osnw_div_text_log">Войти</p>
+					<input type="text" name="" class="osnw_div_input-div_input_log" style="margin-top: 20px;" placeholder="Логин" id="log_inp">
+					<input type="password" name="" class="osnw_div_input-div_input_log" placeholder="Пароль" id="pass_inp">
+					<input type="button" name="" class="osnw_div_text_button_log" style="margin-top: 20px;" value="Войти" onclick="log()" accesskey="enter">
+			</div>
+		</div>
 </body>
 </html>
