@@ -1,0 +1,21 @@
+[90m= [39m[34;4mIlluminate\Database\Eloquent\Collection[39;24m {#1316
+    [34mall[39m: [
+      [34;4mApp\Models\User[39;24m {#6011
+        [34mid[39m: [35m1[39m,
+        [34mfio[39m: "[32mАдминистратор Системы[39m",
+        [34mavatar[39m: "[32mdefault_avatar.png[39m",
+        [34memail[39m: "[32madmin@shop.ru[39m",
+        #[33mpassword[39m: "[32m$2y$12$1oFoykPQ3R7l7ch/Itk97OOuwC8e3qYLO1WpGs2.Amt1T3576TaAe[39m",
+        [34mrole[39m: "[32madmin[39m",
+      },
+      [34;4mApp\Models\User[39;24m {#6012
+        [34mid[39m: [35m2[39m,
+        [34mfio[39m: "[32mТестовый Пользователь[39m",
+        [34mavatar[39m: "[32mdefault_avatar.png[39m",
+        [34memail[39m: "[32muser@shop.ru[39m",
+        #[33mpassword[39m: "[32m$2y$12$Pii9DqcEEHVgrTfnrzyQ2uCfKdE8gQsgCgYqSqGYKv6MRotUKep0y[39m",
+        [34mrole[39m: "[32mclient[39m",
+      },
+    ],
+  }
+
